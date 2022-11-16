@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 78.92 sec <<< FAILURE! - in TestSuite
+CheckDisbursementTab(resources.com.fundingsocieties.TestCases)  Time elapsed: 3.002 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="tab-button -progress"> is not clickable at point (978,558) because another element <div class="loading-background"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phams-MacBook-Air.local', ip: 'fe80:0:0:0:1880:e291:5472:9050%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221030091646, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 9797, moz:profile: /var/folders/pk/xxnbq8656fn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a4570da3-c40d-4a10-bdb4-0d04e47db27c
+	at resources.com.fundingsocieties.TestCases.CheckDisbursementTab(TestCases.java:104)
+

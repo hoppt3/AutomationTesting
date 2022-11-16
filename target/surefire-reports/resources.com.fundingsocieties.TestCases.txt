@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: resources.com.fundingsocieties.TestCases
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 9.474 sec <<< FAILURE! - in resources.com.fundingsocieties.TestCases
+setBaseUrl(resources.com.fundingsocieties.TestCases)  Time elapsed: 4.402 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phams-MacBook-Air.local', ip: 'fe80:0:0:0:1880:e291:5472:9050%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221030091646, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 9592, moz:profile: /var/folders/pk/xxnbq8656fn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8db1a75-07cb-42b7-bb47-eb085ec6c2ef
+	at resources.com.fundingsocieties.TestCases.setBaseUrl(TestCases.java:39)
+

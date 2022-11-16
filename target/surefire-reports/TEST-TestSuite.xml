@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.92" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/phamthihop/IdeaProjects/automationtesting"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/phamthihop/IdeaProjects/automationtesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/pk/xxnbq8656fng9v87tnjr4nhw0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/phamthihop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/phamthihop"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="phamthihop"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="CheckDisbursementTab" classname="resources.com.fundingsocieties.TestCases" time="3.002">
+    <failure message="Element &lt;button class=&quot;tab-button -progress&quot;&gt; is not clickable at point (978,558) because another element &lt;div class=&quot;loading-background&quot;&gt; obscures it&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;phams-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1880:e291:5472:9050%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221030091646, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 9797, moz:profile: /var/folders/pk/xxnbq8656fn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a4570da3-c40d-4a10-bdb4-0d04e47db27c" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="tab-button -progress"> is not clickable at point (978,558) because another element <div class="loading-background"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phams-MacBook-Air.local', ip: 'fe80:0:0:0:1880:e291:5472:9050%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221030091646, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 9797, moz:profile: /var/folders/pk/xxnbq8656fn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a4570da3-c40d-4a10-bdb4-0d04e47db27c
+	at resources.com.fundingsocieties.TestCases.CheckDisbursementTab(TestCases.java:104)
+]]></failure>
+    <system-out><![CDATA[Something's wrong at checking disbursement tab
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1668534819180	geckodriver	INFO	Listening on 127.0.0.1:25871
+1668534819247	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/pk/xxnbq8656fng9v87tnjr4nhw0000gn/T/rust_mozprofileVzpOQ6"
+2022-11-16 00:53:39.703 plugin-container[9798:513686] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 00:53:39.704 plugin-container[9798:513686] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-16 00:53:39.709 plugin-container[9798:513686] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 00:53:39.709 plugin-container[9798:513686] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-16 00:53:39.710 plugin-container[9798:513684] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-16 00:53:39.710 plugin-container[9798:513684] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1668534819725	Marionette	INFO	Marionette enabled
+1668534819761	Marionette	INFO	Listening on port 65408
+Read port: 65408
+1668534819970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pk/xxnbq8656fng9v87tnjr4nhw0000gn/T/rust_mozprofileVzpOQ6/search.json.mozlz4", (void 0)))
+Nov 16, 2022 12:53:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://jscloud.net/x/3829/inlinks.js, line 1: SyntaxError: unexpected token: ':'
+JavaScript error: https://jscloud.net/x/3829/inlinks.js, line 1: SyntaxError: unexpected token: ':'
+]]></system-err>
+  </testcase>
+  <testcase name="CheckGeneralTab" classname="resources.com.fundingsocieties.TestCases" time="21.794"/>
+  <testcase name="CheckRepaymentTab" classname="resources.com.fundingsocieties.TestCases" time="4.245"/>
+  <testcase name="FullFlow" classname="resources.com.fundingsocieties.TestCases" time="23.074"/>
+</testsuite>
