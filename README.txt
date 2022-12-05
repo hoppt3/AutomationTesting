@@ -1,5 +1,3 @@
-Assignment from Funding Societies | Modalku Group
-
 Prerequisites
 Before you continue, ensure you meet the following requirements:
 * You have installed JDK and add JAVA_HOME system variable
